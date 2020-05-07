@@ -49,7 +49,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## NetworkManager
+## NetworkManager-Moya
 
 Copyright (c) 2020 WeiRuJian <824041965@qq.com>
 

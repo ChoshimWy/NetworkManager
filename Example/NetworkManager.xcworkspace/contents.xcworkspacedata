@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:NetworkManager.xcodeproj">
+      location = "group:/Users/weirujian/Desktop/WeiRuJian/GitLibs/CCNetworkManager/Example/NetworkManager.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetworkManager.xcodeproj">
    </FileRef>
 </Workspace>

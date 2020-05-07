@@ -1,0 +1,6 @@
+framework module NetworkManager_Moya {
+  umbrella header "NetworkManager-Moya-umbrella.h"
+
+  export *
+  module * { export * }
+}

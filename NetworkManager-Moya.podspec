@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NetworkManager'
+  s.name             = 'NetworkManager-Moya'
   s.version          = '0.1.0'
   s.summary          = 'RxSwift + Moya + Cache Network request cache encapsulation'
   s.homepage         = 'https://github.com/WeiRuJian/NetworkManager'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Cache' do |ss|
     ss.source_files = 'NetworkManager/Classes/Cache'
-    ss.dependency 'NetworkManager/Core'
+    ss.dependency 'NetworkManager-Moya/Core'
   end
 
 end

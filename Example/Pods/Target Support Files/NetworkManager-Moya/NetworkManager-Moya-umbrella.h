@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double NetworkManagerVersionNumber;
-FOUNDATION_EXPORT const unsigned char NetworkManagerVersionString[];
+FOUNDATION_EXPORT double NetworkManager_MoyaVersionNumber;
+FOUNDATION_EXPORT const unsigned char NetworkManager_MoyaVersionString[];
 

@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0616FBAEF7E12E9EE2EC04BB /* NetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkManager.podspec; path = ../NetworkManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0616FBAEF7E12E9EE2EC04BB /* NetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkManager.podspec; path = ../NetworkManager.podspec; sourceTree = "<group>"; };
 		415F723B91129CD514C53A0B /* Pods-NetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager_Tests/Pods-NetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-NetworkManager_Example/Pods-NetworkManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/NetworkManager/NetworkManager.framework",
+				"${BUILT_PRODUCTS_DIR}/NetworkManager-Moya/NetworkManager_Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
@@ -307,7 +307,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkManager_Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
