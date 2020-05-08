@@ -11,7 +11,7 @@ import RxSwift
 
 public extension TargetType {
     
-    public var cachedKey: String {
+    var cachedKey: String {
         if let request = try? endpoint.urlRequest(),
             let data = request.httpBody,
             let parameters = String(data: data, encoding: .utf8) {
@@ -28,15 +28,15 @@ public extension TargetType {
                         httpHeaderFields: headers)
     }
     
-    public func cachedResponse(_ key: String) throws -> Response {
+    func cachedResponse(_ key: String) throws -> Response {
         return try Storage<Response>().object(forKey: key)
     }
     
-    public func saveCacheResponse(_ response: Response) throws {
+    func saveCacheResponse(_ response: Response) throws {
         return try Storage<Response>().setObject(response, forKey: self.cachedKey)
     }
     
-    public func removeCache() throws {
+    func removeCache() throws {
         try Storage<Response>().removeObject(forKey: cachedKey)
     }
     

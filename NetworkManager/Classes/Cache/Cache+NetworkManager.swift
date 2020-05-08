@@ -10,11 +10,11 @@ import Moya
 
 public extension NetworkManager {
     
-    public func removeAllCache() throws {
+    func removeAllCache() throws {
         try Storage<Response>().removeAll()
     }
     
-    public func removeCache(target: TargetType) throws {
+    func removeCache(target: TargetType) throws {
         try Storage<Response>().removeObject(forKey: target.cachedKey)
     }
     

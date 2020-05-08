@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkManager-Moya'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'RxSwift + Moya + Cache Network request cache encapsulation'
   s.homepage         = 'https://github.com/WeiRuJian/NetworkManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
