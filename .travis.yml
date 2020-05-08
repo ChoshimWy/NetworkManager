@@ -2,7 +2,7 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode11
+osx_image: xcode11.4
 language: swift
  cache: cocoapods
  podfile: Example/Podfile
@@ -11,4 +11,4 @@ language: swift
  - pod install --project-directory=Example
  
 script:
-- pod lib lint --allow-warnings --no-clean --sources=https://github.com/CocoaPods/Specs.git
+- pod lib lint --allow-warnings --no-clean
