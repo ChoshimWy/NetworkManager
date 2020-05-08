@@ -11,4 +11,4 @@ language: swift
  - pod install --project-directory=Example
  
 script:
-- pod lib lint --allow-warnings --no-clean
+- pod lib lint --allow-warnings --no-clean --sources=https://github.com/CocoaPods/Specs.git

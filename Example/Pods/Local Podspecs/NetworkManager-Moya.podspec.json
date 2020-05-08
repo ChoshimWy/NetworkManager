@@ -1,6 +1,6 @@
 {
   "name": "NetworkManager-Moya",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "RxSwift + Moya + Cache Network request cache encapsulation",
   "homepage": "https://github.com/WeiRuJian/NetworkManager",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/WeiRuJian/NetworkManager.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"

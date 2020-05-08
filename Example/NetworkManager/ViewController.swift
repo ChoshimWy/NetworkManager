@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NetworkManager
+import NetworkManager_Moya
 import RxSwift
 import Moya
 

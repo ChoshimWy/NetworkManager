@@ -1,4 +1,4 @@
-# NetworkManager 0.1.0
+# NetworkManager-Moya 0.1.1
 
 [![CI Status](https://img.shields.io/travis/WeiRuJian/NetworkManager.svg?style=flat)](https://travis-ci.org/WeiRuJian/NetworkManager)
 [![Version](https://img.shields.io/cocoapods/v/NetworkManager.svg?style=flat)](https://cocoapods.org/pods/NetworkManager)
@@ -16,14 +16,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-NetworkManager is available through [CocoaPods](https://cocoapods.org). To install
+NetworkManager-Moya is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NetworkManager-Moya', '~> 0.1.0'
+pod 'NetworkManager-Moya', '~> 0.1.1'
 
 # or
-pod 'NetworkManager-Moya/Cache', '~> 0.1.0'
+pod 'NetworkManager-Moya/Cache', '~> 0.1.1'
 
 ```
 

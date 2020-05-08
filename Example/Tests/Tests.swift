@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import NetworkManager
+import NetworkManager_Moya
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

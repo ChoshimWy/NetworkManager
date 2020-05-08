@@ -10,9 +10,9 @@ PODS:
   - Moya/RxSwift (14.0.0):
     - Moya/Core
     - RxSwift (~> 5.0)
-  - NetworkManager-Moya/Cache (0.1.0):
+  - NetworkManager-Moya/Cache (0.1.1):
     - NetworkManager-Moya/Core
-  - NetworkManager-Moya/Core (0.1.0):
+  - NetworkManager-Moya/Core (0.1.1):
     - Moya/RxSwift
   - Nimble (7.3.4)
   - Nimble-Snapshots (6.3.0):
@@ -35,14 +35,13 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - FBSnapshotTestCase
     - Moya
     - Nimble
     - Nimble-Snapshots
     - Quick
     - RxSwift
     - SwiftyBeaver
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   NetworkManager-Moya:
@@ -52,7 +51,7 @@ SPEC CHECKSUMS:
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  NetworkManager-Moya: 7e01ccc3d96f716baecbfd83041e22dabb1ab185
+  NetworkManager-Moya: 33a45fa4d96ebf22a1ace7038d3807a973b569c6
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
